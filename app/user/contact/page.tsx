@@ -50,8 +50,8 @@ ${name}
   return (
     <>
       <div style={{ backgroundImage: "url('/bg3.png')" }} className="h-full w-full">
-        <div className="pr-2 md:pr-4 lg:pr-8 h-full md:h-full lg:h-full w-auto">
-          <div className="bg-white h-full w-full flex flex-col mb-2">
+        <div className="pr-2 md:pr-4 lg:pr-8 h-full md:h-full lg:h-full w-full">
+          <div className="bg-white h-full w-full flex flex-col ">
             
             
            <div className="relative w-full h-full py-3 px-2">
@@ -182,7 +182,7 @@ ${name}
                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.9882537428157!2d73.10021940962568!3d18.976126155028368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7e9de714ee919%3A0xca4bd46914a223f5!2sAum%20Shree%20Apartments!5e0!3m2!1sen!2sin!4v1764730998067!5m2!1sen!2sin"
                     loading="lazy"
                     allowFullScreen
-                    className="w-full h-[350px] lg:h-full"
+                    className="w-full h-full lg:h-full"
                   ></iframe>
                 </div>
 

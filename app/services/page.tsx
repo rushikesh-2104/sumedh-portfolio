@@ -20,7 +20,7 @@ const Services = () => {
     <div style={{ backgroundImage: "url('/bg3.png')" }} className="h-full w-full">
     <div className="pr-2 md:pr-4 lg:pr-8 h-full md:h-full lg:h-full w-auto">
 
-    <div className="bg-white h-full w-full flex flex-col mb-2">
+    <div className="bg-white h-full w-full flex flex-col ">
     <div className="relative w-full h-full py-3 px-2">
 
     <div className="relative">
