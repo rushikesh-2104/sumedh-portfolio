@@ -5,7 +5,7 @@ import Testimonials from '@/app/components/Testimonials';
 export const metadata = {
   title: "Chef Sumedh – Home-Cooked Meals, Menu Development & Culinary Workshops",
   description:
-    "Experience authentic coastal flavours crafted with precision by Chef Sumedh. Offering home-cooked meal services, professional menu development, plating & styling, and culinary workshops for individuals, cafés, and restaurants.",
+    "Experience authentic coastal flavours crafted with precision by Chef Sumedh. Offering home-cooked meal services, menu development, plating & styling, and culinary workshops for cafés and restaurants.",
   keywords: [
     "Chef Sumedh",
     "home cooked meals",
@@ -14,23 +14,26 @@ export const metadata = {
     "menu development services",
     "chef workshops",
     "culinary training",
-    "food plating and styling",
+    "food plating",
     "café menu consultant",
     "chef portfolio"
   ],
   openGraph: {
     title: "Chef Sumedh – Culinary Expertise & Premium Food Services",
     description:
-      "Discover authentic flavour, expert techniques, and premium culinary services — from home-style meals to menu development and chef workshops.",
-    url: "", 
+      "Discover authentic flavours, expert techniques, and premium culinary services — from home-style meals to menu development and chef workshops.",
+    url: "https://sumedh-portfolio-gamma.vercel.app",  // ✅ Correct URL added
+    siteName: "Chef Sumedh",
     images: [
       {
-        url: "/logo2.png", 
+        url: "/logo2.png",
         width: 1200,
         height: 630,
         alt: "Chef Sumedh Culinary Services",
       },
     ],
+    locale: "en_IN",
+    type: "website",
   },
   twitter: {
     card: "summary_large_image",
@@ -39,7 +42,11 @@ export const metadata = {
       "Home-cooked meals, menu development, plating & styling, and culinary workshops.",
     images: ["/logo2.png"],
   },
+  alternates: {
+    canonical: "https://sumedh-portfolio-gamma.vercel.app", // ✅ Canonical link added
+  },
 };
+
 
 
 
