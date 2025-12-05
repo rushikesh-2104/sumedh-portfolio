@@ -61,7 +61,7 @@ const Navbar = () => {
           {open && (
             <button
               onClick={() => setOpen(false)}
-              className="sm:hidden text-3xl"
+              className="sm:hidden text-3xl text-white"
             >
               ✕
             </button>
