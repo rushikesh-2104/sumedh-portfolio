@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className='h-full w-full pt-3' style={{ backgroundImage: "url('/bg3.png')" }}>
        
-<div className="grid lg:grid-cols-1 lg:grid-rows-2 gap-2 ">
+<div className="grid lg:grid-cols-1 lg:grid-rows-2 gap-2 text-white">
 
     <div className='lg:h-full h-full lg:w-full flex justify-center items-center '>
     <div className="grid grid-cols-2 grid-rows-2 lg:grid-cols-4 lg:grid-rows-1  lg:px-15 px-2 gap-x-8 lg:gap-30">

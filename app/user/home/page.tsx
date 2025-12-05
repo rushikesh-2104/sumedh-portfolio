@@ -54,7 +54,7 @@ const Home = () => {
       <div className="grid lg:grid-cols-4 grid-rows-1 gap-2 bg-white pt-2 md:pt-3 md:px-4 md:mr-4 pb-2 mr-2 px-1  lg:pt-2 lg:pb-2 lg:mr-8 lg:h-[30vh]">
 
           <div className="relative h-full w-full" >
-          <Image src="/mealbox.png" alt='chef sumedh mealbox' loading="lazy" width={1500} height={1200} quality={75} className=' h-full w-full brightness-50 '/>
+          <Image src="/mealbox.png" alt='chef sumedh mealbox' loading="lazy" width={1500} height={1200}  className=' h-full w-full brightness-50 '/>
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-2">
             <h2 className="text-lg md:text-xl font-bold">Home Cooked Meals</h2>
             <div className="w-12 h-0.5 bg-yellow-400 my-2"></div>
@@ -63,7 +63,7 @@ const Home = () => {
           </div>
           
           <div className="relative h-full w-full" >
-            <Image src="/menucard.png" alt='sumedh menu' loading="lazy" width={1500} height={1200} quality={75} className='h-full w-full brightness-50 '/>
+            <Image src="/menucard.png" alt='sumedh menu' loading="lazy" width={1500} height={1200}  className='h-full w-full brightness-50 '/>
               <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-2">
                 <h2 className="text-lg md:text-xl font-bold">Menu Development</h2>
                 <div className="w-12 h-0.5 bg-yellow-400 my-2"></div>
@@ -72,7 +72,7 @@ const Home = () => {
           </div>
 
           <div className="relative h-full w-full" >
-            <Image src="/plating.png" alt='chef plating and styling' loading="lazy"  width={1500} height={1200} quality={75} className='h-full w-full brightness-50 '/>
+            <Image src="/plating.png" alt='chef plating and styling' loading="lazy"  width={1500} height={1200}  className='h-full w-full brightness-50 '/>
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-2">
                 <h2 className="text-lg md:text-xl font-bold">Plating & Styling</h2>
                 <div className="w-12 h-0.5 bg-yellow-400 my-2"></div>
@@ -81,7 +81,7 @@ const Home = () => {
           </div>
 
           <div className="relative h-full w-full">
-            <Image src="/workshop.png" alt='sumedh workshop and training' loading="lazy" width={1500} height={1200} quality={75} className='h-full w-full brightness-50 '/>
+            <Image src="/workshop.png" alt='sumedh workshop and training' loading="lazy" width={1500} height={1200}  className='h-full w-full brightness-50 '/>
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-2">
                 <h2 className="text-lg md:text-xl font-bold">Workshops & Training</h2>
                 <div className="w-12 h-0.5 bg-yellow-400 my-2"></div>
@@ -131,7 +131,6 @@ Every dish he creates carries the essence of tradition while embracing the creat
     alt="chef sumedh menu box"
     width={3880}
     height={2180}
-    quality={100}
     className="h-full w-full"
     loading="lazy"
   />

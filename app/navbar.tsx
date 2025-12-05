@@ -25,7 +25,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           
           {/* Left Menu (Desktop Only) */}
-          <div className="hidden sm:flex gap-4 md:pl-2 lg:pl-45 lg:gap-9 ">
+          <div className="hidden sm:flex gap-4 md:pl-2 lg:pl-45 lg:gap-9 text-white">
             <Link href="/" className={gravitas.className}>HOME</Link>
             <Link href="/user/menu" className={gravitas.className}>MENU</Link>
             <Link href="/services" className={gravitas.className}>SERVICE</Link>
@@ -42,7 +42,7 @@ const Navbar = () => {
           </div>
 
           
-          <div className="hidden sm:flex gap-4 md:pr-3 lg:pr-35 lg:gap-9">
+          <div className="hidden sm:flex gap-4 md:pr-3 lg:pr-35 lg:gap-9 text-white">
             <Link href="/user/about" className={gravitas.className}>ABOUT ME</Link>
             <Link href="/user/contact" className={gravitas.className}>CONTACT</Link>
           </div>

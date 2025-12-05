@@ -122,7 +122,7 @@ ${name}
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
 
                 {/* LEFT DIV — WHATSAPP FORM */}
-                <div className=" bg-black p-6 rounded-xl shadow-md border border-gray-200">
+                <div className=" bg-black p-6 rounded-xl shadow-md border text-white border-gray-200">
 
                   <h2 className="text-2xl font-bold mb-4">Send us a Message</h2>
 
@@ -137,7 +137,7 @@ ${name}
                         const value = e.target.value;
                         if (/^[A-Za-z ]*$/.test(value)) setName(value);
                       }}
-                      className="p-3 border-b-2 border-gray-400 bg-transparent outline-none"
+                      className="p-3 border-b-2 text-white border-gray-400 bg-transparent outline-none"
                       required
                     />
 
@@ -151,7 +151,7 @@ ${name}
                         const value = e.target.value;
                         if (/^[0-9]*$/.test(value)) setWhatsapp(value);
                       }}
-                      className="p-3 border-b-2 border-gray-400 bg-transparent outline-none"
+                      className="p-3 border-b-2 text-white  border-gray-400 bg-transparent outline-none"
                       required
                     />
 
