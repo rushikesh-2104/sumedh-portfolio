@@ -56,7 +56,7 @@ export default function Menu() {
 
             
             <div className="grid grid-cols-1 grid-rows-2 gap-2 text-black lg:mt-15">
-              <div className="flex flex-col justify-center items-center">
+              <div className="flex flex-col justify-center items-center mt-15 lg:mt-0">
                 <span
                   className={
                     anton.className +
@@ -80,8 +80,120 @@ export default function Menu() {
               </div>
             </div>
 
+
+            <div>
+           <div className="bg-white min-h-screen  md:py-10 px-6 md:px-16">
+  <div className="grid md:grid-cols-2 gap-12">
+
+    <div>
+      <h3 className="text-lg font-semibold text-gray-800">
+        Coastal Prawn Curry
+      </h3>
+      <p className="text-gray-600 mt-2 w-[90%]">
+        A traditional coastal-style curry made with fresh prawns, coconut milk, and aromatic spices.
+      </p>
+      <hr className="my-5 border-gray-300" />
+    </div>
+
+    <div>
+      <h3 className="text-lg font-semibold text-gray-800">
+        Malvani Chicken Sukka
+      </h3>
+      <p className="text-gray-600 mt-2 w-[90%]">
+        Tender chicken cooked with roasted Malvani masala, coconut, and ghee for authentic home-style flavor.
+      </p>
+      <hr className="my-5 border-gray-300" />
+    </div>
+
+    <div>
+      <h3 className="text-lg font-semibold text-gray-800">
+        Chef’s Signature Stuffed Paratha
+      </h3>
+      <p className="text-gray-600 mt-2 w-[90%]">
+        Whole wheat paratha filled with spiced paneer, veggies, and herbs—perfect for café brunch menus.
+      </p>
+      <hr className="my-5 border-gray-300" />
+    </div>
+
+    <div>
+      <h3 className="text-lg font-semibold text-gray-800">
+        Home-Style Fish Fry
+      </h3>
+      <p className="text-gray-600 mt-2 w-[90%]">
+        Fresh fish marinated with coastal spices and pan-fried until crispy and golden.
+      </p>
+      <hr className="my-5 border-gray-300" />
+    </div>
+
+    <div>
+      <h3 className="text-lg font-semibold text-gray-800">
+        Creamy Chicken Pasta
+      </h3>
+      <p className="text-gray-600 mt-2 w-[90%]">
+        Café-style pasta tossed in creamy sauce, herbs, and sautéed chicken—Sumedh’s fusion twist.
+      </p>
+      <hr className="my-5 border-gray-300" />
+    </div>
+
+    <div>
+      <h3 className="text-lg font-semibold text-gray-800">
+        Fresh Garden Salad Bowl
+      </h3>
+      <p className="text-gray-600 mt-2 w-[90%]">
+        A refreshing blend of greens, veggies, and light dressing—perfect for menu development projects.
+      </p>
+      <hr className="my-5 border-gray-300" />
+    </div>
+
+    <div>
+      <h3 className="text-lg font-semibold text-gray-800">
+        Egg Masala Curry
+      </h3>
+      <p className="text-gray-600 mt-2 w-[90%]">
+        Hard-boiled eggs simmered in onion-tomato gravy with traditional spices.
+      </p>
+      <hr className="my-5 border-gray-300" />
+    </div>
+
+    <div>
+      <h3 className="text-lg font-semibold text-gray-800">
+        Veg Thali Experience
+      </h3>
+      <p className="text-gray-600 mt-2 w-[90%]">
+        A complete home-style vegetarian meal with sabzi, dal, rice, roti, and condiments.
+      </p>
+      <hr className="my-5 border-gray-300" />
+    </div>
+
+    <div>
+      <h3 className="text-lg font-semibold text-gray-800">
+        Chicken Tawa Fry
+      </h3>
+      <p className="text-gray-600 mt-2 w-[90%]">
+        Spicy, flavourful chicken cooked on tawa with onions, chillies, and chef’s coastal seasoning.
+      </p>
+      <hr className="my-5 border-gray-300" />
+    </div>
+
+    <div>
+      <h3 className="text-lg font-semibold text-gray-800">
+        Homemade Biryani
+      </h3>
+      <p className="text-gray-600 mt-2 w-[90%]">
+        Aromatic biryani layered with marinated chicken, fried onions, and basmati rice—slow-cooked to perfection.
+      </p>
+      <hr className="my-5 border-gray-300" />
+    </div>
+
+  </div>
+</div>
+
+
+            </div>          
+
+
             
-            <div className="h-full w-full lg:px-10 flex justify-center items-center">
+            <div className="h-full w-full lg:px-10 px-2 flex justify-center items-center">
                   <Carousel_001
                     images={images}
                     showPagination={true}
