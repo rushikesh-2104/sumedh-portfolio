@@ -70,7 +70,7 @@ const Navbar = () => {
 
         {/* Mobile Dropdown Menu */}
         {open && (
-          <div className="sm:hidden flex flex-col gap-3 mt-4 z-50 relative">
+          <div className="sm:hidden flex flex-col gap-3 mt-4 z-50 relative text-white ">
             <Link href="/" onClick={() => setOpen(false)}>HOME</Link>
             <Link href="/user/menu" onClick={() => setOpen(false)}>MENU</Link>
             <Link href="/services" onClick={() => setOpen(false)}>SERVICE</Link>

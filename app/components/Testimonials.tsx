@@ -51,7 +51,7 @@ export default function Testimonials() {
   }
 
   return (
-    <section className="p-6 bg-black rounded-lg">
+    <section className="p-6 bg-black rounded-lg text-white placeholder-white">
       <h2 className="text-2xl font-bold mb-4">What people say</h2>
 
       <form onSubmit={handleSubmit} className="mb-6 grid gap-2">
