@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     "Chef Portfolio",
     "Private Chef India",
   ],
-  metadataBase: new URL(""),
+  // metadataBase: new URL(""),
   authors: [{ name: "Sumedh Mhatre" }],
   openGraph: {
     title: "Sumedh Culinary | Premium Chef Portfolio",
