@@ -16,50 +16,50 @@ const merriweather = Merriweather({
 });
 
 
-export const metadata = {
-  title: "Menu | Sumedh Culinary Services",
-  description:
-    "Explore Sumedh’s signature coastal dishes, café-style plates, and fusion creations. From prawns curry and Malvani chicken to pasta, biryani, and salads — crafted with passion.",
-  keywords: [
-    "Sumedh menu",
-    "coastal cuisine",
-    "chef sumedh dishes",
-    "catering menu navi mumbai",
-    "private chef menu",
-    "coastal prawn curry",
-    "malvani chicken",
-    "fusion cafe dishes",
-    "biryani menu",
-    "home chef navi mumbai"
-  ],
-  openGraph: {
-    title: "Menu | Sumedh Culinary Services",
-    description:
-      "Discover curated dishes including coastal curries, parathas, salads, pasta, biryani, and more.",
-    url: "https://sumedh-portfolio-gamma.vercel.app/menu",
-    siteName: "Sumedh Culinary Services",
-    images: [
-      {
-        url: "/logo2.png",
-        width: 1200,
-        height: 630,
-        alt: "Menu - Sumedh Culinary Services",
-      },
-    ],
-    locale: "en_IN",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Menu | Sumedh Culinary Services",
-    description:
-      "Explore a signature menu crafted with authentic flavours and modern culinary techniques.",
-    images: ["/logo2.png"],
-  },
-  alternates: {
-    canonical: "https://sumedh-portfolio-gamma.vercel.app/menu",
-  },
-};
+// export const metadata = {
+//   title: "Menu | Sumedh Culinary Services",
+//   description:
+//     "Explore Sumedh’s signature coastal dishes, café-style plates, and fusion creations. From prawns curry and Malvani chicken to pasta, biryani, and salads — crafted with passion.",
+//   keywords: [
+//     "Sumedh menu",
+//     "coastal cuisine",
+//     "chef sumedh dishes",
+//     "catering menu navi mumbai",
+//     "private chef menu",
+//     "coastal prawn curry",
+//     "malvani chicken",
+//     "fusion cafe dishes",
+//     "biryani menu",
+//     "home chef navi mumbai"
+//   ],
+//   openGraph: {
+//     title: "Menu | Sumedh Culinary Services",
+//     description:
+//       "Discover curated dishes including coastal curries, parathas, salads, pasta, biryani, and more.",
+//     url: "https://sumedh-portfolio-gamma.vercel.app/menu",
+//     siteName: "Sumedh Culinary Services",
+//     images: [
+//       {
+//         url: "/logo2.png",
+//         width: 1200,
+//         height: 630,
+//         alt: "Menu - Sumedh Culinary Services",
+//       },
+//     ],
+//     locale: "en_IN",
+//     type: "website",
+//   },
+//   twitter: {
+//     card: "summary_large_image",
+//     title: "Menu | Sumedh Culinary Services",
+//     description:
+//       "Explore a signature menu crafted with authentic flavours and modern culinary techniques.",
+//     images: ["/logo2.png"],
+//   },
+//   alternates: {
+//     canonical: "https://sumedh-portfolio-gamma.vercel.app/menu",
+//   },
+// };
 
 
 const images = [

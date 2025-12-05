@@ -14,47 +14,47 @@ const merriweather = Merriweather({
   weight:"400",
 });
 
-export const metadata = {
-  title: "Contact | Sumedh Culinary Services",
-  description:
-    "Contact Sumedh for menu enquiries, private dining, and catering services in Karanjade, Navi Mumbai. Get in touch via WhatsApp or visit the location.",
-  keywords: [
-    "Sumedh culinary services",
-    "contact chef sumedh",
-    "catering karanjade",
-    "private chef navi mumbai",
-    "food services panvel",
-    "tiffin service karanjade",
-    "personal chef navi mumbai"
-  ],
-  openGraph: {
-    title: "Contact | Sumedh Culinary Services",
-    description:
-      "Get in touch for private dining, catering services, and custom menu requests.",
-    url: "https://sumedh-portfolio-gamma.vercel.app/contact",
-    siteName: "Sumedh Culinary Services",
-    images: [
-      {
-        url: "/logo2.png",
-        width: 1200,
-        height: 630,
-        alt: "Contact Sumedh Culinary Services",
-      },
-    ],
-    locale: "en_IN",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Contact | Sumedh Culinary Services",
-    description:
-      "Reach out to Sumedh for catering, private dining, and menu enquiries.",
-    images: ["/logo2.png"],
-  },
-  alternates: {
-    canonical: "https://sumedh-portfolio-gamma.vercel.app/contact",
-  },
-};
+// export const metadata = {
+//   title: "Contact | Sumedh Culinary Services",
+//   description:
+//     "Contact Sumedh for menu enquiries, private dining, and catering services in Karanjade, Navi Mumbai. Get in touch via WhatsApp or visit the location.",
+//   keywords: [
+//     "Sumedh culinary services",
+//     "contact chef sumedh",
+//     "catering karanjade",
+//     "private chef navi mumbai",
+//     "food services panvel",
+//     "tiffin service karanjade",
+//     "personal chef navi mumbai"
+//   ],
+//   openGraph: {
+//     title: "Contact | Sumedh Culinary Services",
+//     description:
+//       "Get in touch for private dining, catering services, and custom menu requests.",
+//     url: "https://sumedh-portfolio-gamma.vercel.app/contact",
+//     siteName: "Sumedh Culinary Services",
+//     images: [
+//       {
+//         url: "/logo2.png",
+//         width: 1200,
+//         height: 630,
+//         alt: "Contact Sumedh Culinary Services",
+//       },
+//     ],
+//     locale: "en_IN",
+//     type: "website",
+//   },
+//   twitter: {
+//     card: "summary_large_image",
+//     title: "Contact | Sumedh Culinary Services",
+//     description:
+//       "Reach out to Sumedh for catering, private dining, and menu enquiries.",
+//     images: ["/logo2.png"],
+//   },
+//   alternates: {
+//     canonical: "https://sumedh-portfolio-gamma.vercel.app/contact",
+//   },
+// };
 
 
 
