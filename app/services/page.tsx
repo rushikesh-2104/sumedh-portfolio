@@ -14,6 +14,52 @@ const merriweather = Merriweather({
   weight:"400",
 });
 
+
+export const metadata = {
+  title: "Services | Sumedh Culinary Services",
+  description:
+    "Explore professional culinary services by Chef Sumedh — menu development, home-cooked meals, plating & food styling, and chef workshops for cafés, restaurants, and individuals.",
+  keywords: [
+    "chef services navi mumbai",
+    "menu development",
+    "food styling",
+    "home cooked meals",
+    "chef workshops",
+    "culinary training",
+    "café menu consulting",
+    "restaurant menu creation",
+    "private chef navi mumbai"
+  ],
+  openGraph: {
+    title: "Services | Sumedh Culinary Services",
+    description:
+      "Discover specialized services including menu development, home-style meal preparation, professional plating, and culinary workshops.",
+    url: "https://sumedh-portfolio-gamma.vercel.app/services",
+    siteName: "Sumedh Culinary Services",
+    images: [
+      {
+        url: "/logo2.png",
+        width: 1200,
+        height: 630,
+        alt: "Services - Sumedh Culinary Services",
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Services | Sumedh Culinary Services",
+    description:
+      "Chef Sumedh offers expert culinary services — menu development, plating, home-cooked meals, and workshops.",
+    images: ["/logo2.png"],
+  },
+  alternates: {
+    canonical: "https://sumedh-portfolio-gamma.vercel.app/services",
+  },
+};
+
+
 const Services = () => {
   return (
     <>
