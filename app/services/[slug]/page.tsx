@@ -27,6 +27,7 @@ export default async function ServiceDetails({ params }: ServicePageProps) {
   }
 
   return (
+    <div style={{ backgroundImage: "url('/bg3.png')" }} className="h-full w-full">
     <div className="p-5 bg-white pt-2 md:pt-3 md:px-4 md:mr-4 pb-2 mr-2 px-1  lg:pt-2 lg:pb-2 lg:mr-8 lg:h-full text-black">
       <h1 className={anton.className + " text-4xl font-bold mt-5 md:mt-5  "}>{service.title}</h1>
       <p className={merriweather.className + " mt-4 text-lg  "}>{service.description}</p>
@@ -40,6 +41,7 @@ export default async function ServiceDetails({ params }: ServicePageProps) {
           className="rounded-xl"
         />
       </div>
+    </div>
     </div>
   );
 }

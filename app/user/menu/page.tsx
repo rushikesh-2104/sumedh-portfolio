@@ -81,9 +81,7 @@ export default function Menu() {
             </div>
 
             
-            
-              
-                {/* <div className="lg:h-full">
+            <div className="h-full w-full lg:px-10 flex justify-center items-center">
                   <Carousel_001
                     images={images}
                     showPagination={true}
@@ -92,8 +90,10 @@ export default function Menu() {
                     autoplay={true}
                     spaceBetween={40}
                   />
-                </div> */}
+            </div>
             
+              
+           
           
           </div>
         </div>

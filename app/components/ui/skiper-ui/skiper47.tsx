@@ -85,7 +85,7 @@ const Carousel_001 = ({
         duration: 0.3,
         delay: 0.5,
       }}
-      className={cn("w-3xl relative", className)}
+      className={cn("w-full relative", className)}
     >
       <style>{css}</style>
 
