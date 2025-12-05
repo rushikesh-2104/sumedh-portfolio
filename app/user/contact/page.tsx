@@ -20,7 +20,7 @@ const Contact = () => {
   const [whatsapp, setWhatsapp] = useState("");
   const [message, setMessage] = useState("");
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     const finalMessage = `
@@ -157,7 +157,7 @@ ${name}
 
                     {/* Message */}
                     <textarea
-                      rows="4"
+                      rows={4}
                       placeholder="Type your message here..."
                       value={message}
                       onChange={(e) => setMessage(e.target.value)}
