@@ -28,7 +28,7 @@ const Navbar = () => {
           <div className="hidden sm:flex gap-4 md:pl-2 lg:pl-45 lg:gap-9 ">
             <Link href="/" className={gravitas.className}>HOME</Link>
             <Link href="/user/menu" className={gravitas.className}>MENU</Link>
-            <Link href="/user/services" className={gravitas.className}>SERVICE</Link>
+            <Link href="/services" className={gravitas.className}>SERVICE</Link>
           </div>
 
           
@@ -73,7 +73,7 @@ const Navbar = () => {
           <div className="sm:hidden flex flex-col gap-3 mt-4 z-50 relative">
             <Link href="/" onClick={() => setOpen(false)}>HOME</Link>
             <Link href="/user/menu" onClick={() => setOpen(false)}>MENU</Link>
-            <Link href="/user/services" onClick={() => setOpen(false)}>SERVICE</Link>
+            <Link href="/services" onClick={() => setOpen(false)}>SERVICE</Link>
             <Link href="/user/about" onClick={() => setOpen(false)}>ABOUT ME</Link>
             <Link href="/user/contact" onClick={() => setOpen(false)}>CONTACT</Link>
           </div>
