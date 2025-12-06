@@ -22,9 +22,9 @@ const Footer = () => {
     <div className='h-full w-full flex flex-col lg:mt-10 lg:text-center'>
         <div className='text-2xl font-bold'>Social</div>
         <div className='flex flex-col pt-5'>
-            <Link href="">Instagram</Link>
-            <Link href="">LinkedIN</Link>
-            <Link href="">Facebook</Link>
+            <Link href="https://www.instagram.com/sumedhmhatre28?igsh=MXd1aHdrbGN1ZWF5NQ==">Instagram</Link>
+            <Link href="https://www.linkedin.com/in/sumedh-mhatre-943725225?utm_source=share_via&utm_content=profile&utm_medium=member_android">LinkedIN</Link>
+            <Link href="www.facebook.com">Facebook</Link>
         </div>
     </div>
 
@@ -41,7 +41,7 @@ const Footer = () => {
     <div className='h-full w-full flex flex-col lg:mt-10 lg:text-center'>
         <div className='text-2xl font-bold'>Contact</div>
         <div className='flex flex-col pt-5'>
-            <span>Address</span>
+            <span>Aum Shree Apartments, Karanjade</span>
             <span>+91 7208631101 </span>
             <span className='text-sm'>sumedhmhtr28@gmail.com </span>
         </div>
