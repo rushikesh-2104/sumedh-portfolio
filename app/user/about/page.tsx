@@ -108,7 +108,6 @@ export default function About() {
               </div>
             </div>
 
-
             
             <div className="mt-16 mb-20 px-4">
               <Timeline data={data} />
