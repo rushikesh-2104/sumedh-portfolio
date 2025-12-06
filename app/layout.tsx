@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     "Chef Portfolio",
     "Private Chef India",
   ],
-  // metadataBase: new URL(""),
+  metadataBase: new URL("https://sumedh-portfolio-gamma.vercel.app"),
   authors: [{ name: "Sumedh Mhatre" }],
   openGraph: {
     title: "Sumedh Culinary | Premium Chef Portfolio",

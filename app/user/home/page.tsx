@@ -22,7 +22,7 @@ export const metadata = {
     title: "Chef Sumedh – Culinary Expertise & Premium Food Services",
     description:
       "Discover authentic flavours, expert techniques, and premium culinary services — from home-style meals to menu development and chef workshops.",
-    url: "https://sumedh-portfolio-gamma.vercel.app",  // ✅ Correct URL added
+    url: "https://sumedh-portfolio-gamma.vercel.app",  
     siteName: "Chef Sumedh",
     images: [
       {
@@ -43,7 +43,7 @@ export const metadata = {
     images: ["/logo2.png"],
   },
   alternates: {
-    canonical: "https://sumedh-portfolio-gamma.vercel.app", // ✅ Canonical link added
+    canonical: "https://sumedh-portfolio-gamma.vercel.app", 
   },
 };
 
