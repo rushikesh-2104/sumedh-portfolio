@@ -4,13 +4,18 @@ import Navbar from "./navbar";
 import Footer from "./footer";
 
 export const metadata: Metadata = {
+  verification: {
+    google: "kRh2yynu9dXvOinDxoP-HVXumVvkhc4jGXjcgrCszBQ",
+  },
+
   title: "Sumedh Culinary | Chef Portfolio & Indian Coastal Cuisine",
   description:
     "Chef Sumedh Mhatre specializes in Indian coastal cuisine, menu development, food styling, workshops, and home-cooked meal services. Explore his culinary journey, services, and signature dishes.",
+
   keywords: [
     "Chef Sumedh Mhatre",
     "Sumedh Mhatre",
-    "Chef in panvel",
+    "Chef in Panvel",
     "Indian Chef",
     "Coastal Cuisine",
     "Malvani Food",
@@ -21,13 +26,16 @@ export const metadata: Metadata = {
     "Chef Portfolio",
     "Private Chef India",
   ],
+
   metadataBase: new URL("https://sumedh-portfolio-gamma.vercel.app"),
+
   authors: [{ name: "Sumedh Mhatre" }],
+
   openGraph: {
     title: "Sumedh Culinary | Premium Chef Portfolio",
     description:
       "Explore the culinary artistry of Chef Sumedh Mhatre — specializing in coastal Indian cuisine, food styling, menu development, and workshops.",
-    url: "",
+    url: "https://sumedh-portfolio-gamma.vercel.app",
     siteName: "Sumedh Culinary",
     images: [
       {
@@ -40,6 +48,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     type: "website",
   },
+
   twitter: {
     card: "summary_large_image",
     title: "Sumedh Culinary | Chef Portfolio",
@@ -59,7 +68,7 @@ export default function RootLayout({
       <body>
         <Navbar />
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );
