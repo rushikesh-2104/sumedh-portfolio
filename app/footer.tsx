@@ -13,9 +13,9 @@ const Footer = () => {
     <div className='h-full w-full flex flex-col lg:mt-10 lg:text-center'>
         <div className='text-2xl font-bold'>Menu</div>
         <div className='flex flex-col pt-5'>
-            <span>Coastal Home Meal Menu</span>
-            <span>Café & Fusion Signature Menu</span>
-            <span>Fine-Dining Tasting Menu</span>
+            <Link href="/user/menu">Coastal Home Meal Menu</Link> 
+            <Link href="/user/menu">Café & Fusion Signature Menu</Link>
+            <Link href="/user/menu">Fine-Dining Tasting Menu</Link>
         </div>
     </div>
 
@@ -24,17 +24,16 @@ const Footer = () => {
         <div className='flex flex-col pt-5'>
             <Link href="https://www.instagram.com/sumedhmhatre28?igsh=MXd1aHdrbGN1ZWF5NQ==">Instagram</Link>
             <Link href="https://www.linkedin.com/in/sumedh-mhatre-943725225?utm_source=share_via&utm_content=profile&utm_medium=member_android">LinkedIN</Link>
-            <Link href="www.facebook.com">Facebook</Link>
         </div>
     </div>
 
     <div className='h-full w-full flex flex-col lg:mt-10 lg:text-center'>
         <div className='text-2xl font-bold'>Service</div>
         <div className='flex flex-col pt-5'>
-            <span>Menu Development</span>
-            <span>Workshops & Chef Training</span>
-            <span>Plating & Culinary Styling</span>
-            <span>Home-Cooked Meal Solutions</span>
+            <Link href="/services/menu-development">Menu Development</Link>
+            <Link href="/services/home-cooked-meals">Home-Cooked Meal Solutions</Link>
+            <Link href="/services/plating-styling">Plating & Culinary Styling</Link>
+            <Link href="/services/workshops-training">Workshops & Chef Training</Link>
         </div>
     </div>
 
