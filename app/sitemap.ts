@@ -1,5 +1,4 @@
 import { MetadataRoute } from "next";
-// import 
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
@@ -32,6 +31,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.7,
-    }
+    },
   ];
 }
