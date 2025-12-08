@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import Testimonials from '@/app/components/Testimonials';
+import Link from 'next/link';
 
 export const metadata = {
   title: "Chef Sumedh – Home-Cooked Meals, Menu Development & Culinary Workshops",
@@ -59,7 +60,7 @@ const Home = () => {
       </div>
 
       <div className="grid lg:grid-cols-4 grid-rows-1 gap-2 bg-white pt-2 md:pt-3 md:px-4 md:mr-4 pb-2 mr-2 px-1  lg:pt-2 lg:pb-2 lg:mr-8 lg:h-[30vh]">
-
+           <Link href="/services/home-cooked-meals">
           <div className="relative h-full w-full" >
           <Image src="/mealbox.png" alt='chef sumedh mealbox' loading="lazy" width={1500} height={1200}  className=' h-full w-full brightness-50 '/>
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-2">
@@ -68,16 +69,20 @@ const Home = () => {
             <p className="text-sm md:text-base">Freshly prepared & delivered with care.</p>
           </div>
           </div>
+          </Link>
           
+          <Link href="/services/menu-development">
           <div className="relative h-full w-full" >
             <Image src="/menucard.png" alt='sumedh menu' loading="lazy" width={1500} height={1200}  className='h-full w-full brightness-50 '/>
               <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-2">
                 <h2 className="text-lg md:text-xl font-bold">Menu Development</h2>
                 <div className="w-12 h-0.5 bg-yellow-400 my-2"></div>
                 <p className="text-sm md:text-base">Tailored menus & culinary guidance for cafés and restaurants.</p>
-              </div> 
+              </div>    
           </div>
+          </Link>
 
+          <Link href="/services/plating-styling">
           <div className="relative h-full w-full" >
             <Image src="/plating.png" alt='chef plating and styling' loading="lazy"  width={1500} height={1200}  className='h-full w-full brightness-50 '/>
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-2">
@@ -86,7 +91,9 @@ const Home = () => {
                 <p className="text-sm md:text-base">Fine-dining style presentation crafted for visual elegance.</p>
               </div>
           </div>
+          </Link>
 
+          <Link href="/services/workshops-training">
           <div className="relative h-full w-full">
             <Image src="/workshop.png" alt='sumedh workshop and training' loading="lazy" width={1500} height={1200}  className='h-full w-full brightness-50 '/>
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-2">
@@ -95,6 +102,7 @@ const Home = () => {
                 <p className="text-sm md:text-base">Hands-on learning sessions for home cooks & aspiring chefs.</p>
               </div>
           </div>
+          </Link>
 
       </div>
 
@@ -117,9 +125,11 @@ Whether im preparing comforting home-style meals, developing signature menus for
 
 Every dish he creates carries the essence of tradition while embracing the creativity of modern cuisine, crafted to elevate everyday dining into something truly special.
     </div>
+    <Link href="/user/about">
     <div >
-      <button className='border border-amber-500 text-amber-600 rounded-4xl  ml-30 mt-4 md:ml-65 lg:md-60 md:mt-7 md:py-5 md:px-7 py-3 px-5 '>Explore My Journey</button>
+      <button className='border border-amber-500 hover:bg-amber-400 hover:text-white text-amber-600 rounded-4xl  ml-30 mt-4 md:ml-65 lg:md-60 md:mt-7 md:py-5 md:px-7 py-3 px-5 '>Explore My Journey</button>
     </div>
+    </Link>
 </div>
 </div>
 
@@ -166,9 +176,11 @@ Discover a range of culinary services thoughtfully crafted from years of hands-o
         </ul>
       </div>
 
+      <Link href="/services">
       <button className="mt-4 px-8 py-3 border border-yellow-300 text-yellow-300 rounded-full hover:bg-yellow-300 hover:text-black transition">
         GET STARTED
       </button>
+      </Link>
 
     </div>
   </div>
@@ -229,9 +241,11 @@ something new for you. </p>
 </div>
 </div>
 
+      <Link href="/user/menu">
       <button className="lg:mt-2 mb-2 px-8 py-3 border border-yellow-300 text-yellow-300 rounded-full hover:bg-yellow-300 hover:text-black transition">
         Explore More
       </button>
+      </Link>
 
     </div>
   </div>
